@@ -3,6 +3,8 @@ ruby '1.9.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc2'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -14,7 +16,7 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
-gem 'sass-rails'
+gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails', '3.0.4'
